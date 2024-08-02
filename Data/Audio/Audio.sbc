@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>Marathon_Radial</SubtypeId>
+            </Id>
+            <Category>BLOCK</Category>
+            <MaxDistance>100</MaxDistance>
+            <Volume>3</Volume>
+            <Loopable>true</Loopable>
+            <UpdateDistance>110</UpdateDistance>
+            <Waves>
+                <Wave Type="D3">
+		    <Start>Audio/Marathon_Radial/MarathonStart.wav</Start>
+                    <Loop>Audio/Marathon_Radial/MarathonIdle.wav</Loop>
+		    <End>Audio/Marathon_Radial/MarathonStop.wav</End>
+                </Wave>
+            </Waves>
+        </Sound>
+    </Sounds>
+</Definitions>
